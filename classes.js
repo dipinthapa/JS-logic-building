@@ -1,5 +1,5 @@
 class User {
-    constructor(username, email, password){
+    constructor(username, email, password){          //
         this.username = username;
         this.email = email;
         this.password = password;
@@ -31,4 +31,6 @@ const dipin = new User("dipin", "demo@gmail.com", "qwerty")
         }
      }
 
+     const member = new Admin("Jay", "jay@demo.com", "123")
      
+     member.addMember()
