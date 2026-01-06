@@ -27,7 +27,7 @@ const dipin = new User("dipin", "demo@gmail.com", "qwerty")
         }
 
         addMember(){
-            console.log(`A new member was added by ${this.username}`);
+            console.log(`A new member ${this.username} was added`);
         }
      }
 
