@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container {
+    width: 500px;
+    background-color: aqua;
+}
+
+.slider-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
