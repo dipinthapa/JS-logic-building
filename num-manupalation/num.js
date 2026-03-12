@@ -1,6 +1,3 @@
-// Write a program that takes a number as input and checks if it is a prime number.
-//3 -> 3 is a prime number
-
 
 //odd and even
 let num = 50
@@ -14,16 +11,28 @@ else {
     console.log("ODD")
 }
 
+// Write a program that takes a number as input and checks if it is a prime number.
+//3 -> 3 is a prime number
+
 //prime number
 
-function isPrime(num) {
-    // Prime num must be greater than 1
-    if (num <= 1) {   
-        return false;
-    }
+let n = 17;
+let isPrime = true;
 
-    //
+if (n <= 1) {
+    isPrime = false;
+}
+else {
+    for (let i = 2; i < n; i++) {
+        if (n % i === 0) {
+            isPrime = false;
+            break;
+        }
+    }
 }
 
-// Write a program that takes an array of numbers as input and returns the sum of all the numbers.
-//[1,2,3] -> 6
+console.log(isPrime ? `${n} is a prime number.` : `${n} is not a prime number.`);
+
+
+
+
